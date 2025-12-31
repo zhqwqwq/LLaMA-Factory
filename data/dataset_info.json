@@ -1,4 +1,83 @@
 {
+  "deepscaler_960_N=8": {
+    "file_name": "/cephfs/zhanghuaqing/RL/rllm/data/10.15_rollout_from_run2/ckpt_960_N=8_dataset.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "GSM8K_dpsk_rollout16_len4096": {
+    "file_name": "/cephfs/zhanghuaqing/RL/rllm/data/10.19_dpsk_gsm_rollout/gsm8k_train_sharegpt_16rollouts_length4096.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "GSM8K_dpsk_rollout2_len4096": {
+    "file_name": "/cephfs/zhanghuaqing/RL/rllm/data/10.19_dpsk_gsm_rollout/gsm8k_train_sharegpt_2rollouts_length4096.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "GSM8K_dpsk_rollout2": {
+    "file_name": "/cephfs/zhanghuaqing/RL/rllm/data/10.19_dpsk_gsm_rollout/gsm8k_train_sharegpt_2rollouts.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  
+  "GSM8K_GRPO300_rollout47": {
+    "file_name": "/cephfs/zhanghuaqing/RL/rllm_deepscaler/data/Llama3_GSM8K_run2_ckpt300_40rollouts/sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "GSM8K_GRPO80_rollout16": {
+    "file_name": "/cephfs/zhanghuaqing/RL/rllm_deepscaler/data/Llama3_GSM8K_rollout_16/sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "GSM8K_GRPO80_rollout2": {
+    "file_name": "/cephfs/zhanghuaqing/RL/rllm_deepscaler/data/Llama3_GSM8K_rollout/sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "countdown_dpsk_40960_2.5": {
+    "file_name": "/cephfs/zhanghuaqing/RL/rllm/10.20_dpsk_countdown_rollout/countdown_train_sharegpt_5rollouts_length4096.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "countdown_rejection_sampling_204800": {
+    "file_name": "/cephfs/zhanghuaqing/RL/TinyZero_A100/data/vanilla_GRPO_rollout/sharegpt_rejection_sampling_204800.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "countdown_40960*5": {
+    "file_name": "/cephfs/zhanghuaqing/RL/TinyZero_A100/data/vanilla_GRPO_rollout/sharegpt_40960x5.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "step100_rollouts8": {
+    "file_name": "/cephfs/zhanghuaqing/RL/rllm/data/9.28_train_data_filtered_prompt_length/ckpt_100_N=8_dataset.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+
   "identity": {
     "file_name": "identity.json"
   },

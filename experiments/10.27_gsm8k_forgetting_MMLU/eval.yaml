@@ -1,0 +1,21 @@
+### examples/train_lora/llama3_lora_eval.yaml
+### model
+model_name_or_path: /cephfs/zhanghuaqing/RL/LLaMA-Factory/saves/Llama3B_gsm8k_SFT_rltrained_16rollout/checkpoint-1280
+# adapter_name_or_path: saves/llama3-8b/lora/sft # 可选项
+
+### method
+finetuning_type: full # Not sure what's the use. 
+
+### dataset
+task: mmlu_test # mmlu_test, ceval_validation, cmmlu_test
+template: fewshot
+lang: en
+n_shot: 5
+
+### output
+save_dir: /cephfs/zhanghuaqing/RL/LLaMA-Factory/saves/Llama3B_gsm8k_SFT_rltrained_16rollout/checkpoint-1280/mmlu_eval
+
+### eval
+batch_size: 80
+
+trust_remote_code: true
